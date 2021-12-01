@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+.navbar-brand h4{
+    display: inline;
+}
+
+.navbar .d-flex{
+    width: 600px;
+   
+}
+.navbar{
+    background-color: #f4f4f4;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+
+/* responsiveness */
+@media(max-width:700px){
+    form{
+       visibility: hidden;
+    }
+    
+    
+    .header-nav{
+        height: 170px;
+    }
+    .middle-section{
+        
+    display: block;
+    }
+    .image-section div{
+        display: none;
+    }
+    .left-list{
+        height: 100px;
+        width: 100vw;
+        margin-left: 40px; 
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-side{
+        height: 200px;
+        width: 100vw;
+        margin-left: 40px; 
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* edit-create*/
+.edit-create{
+    display: inline;
+    margin: auto;
+}
+
+    /*edit-create ends  */
+    .cards{
+        height: 200px;
+        width: 100vw;
+        margin-left: 40px; 
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sell-items{
+        display: grid;
+        width: 100vw;
+        margin-left: 40px;
+    }
+    .sell-items .col-2{
+        display: inline-block;
+    }
+
+    .jumia{
+        display: none;
+    }
+    footer{
+        width: 100vw;
+       
+        
+    }
+   
+    .make-money{
+        display: none;
+    }
+    .jumia-inter{
+        display: none;
+    }
+    .res{
+        display: flex;
+        color: white;
+    }
+
+}
+
+
+.middle-section{
+    position: relative;
+    margin-top: 80px;
+    min-height: 400px;
+  
+}
+
+.left-list{
+    list-style: none;
+    background-color:white;
+    height: 490px;
+    
+  
+    
+
+}
+.right-side{
+    list-style: none;
+    background-color:white;
+    z-index: 0.9;
+    min-height: 490px;
+
+   
+}
+.image-section{
+    min-height: 400px;
+    
+}
+.col{
+    display: inline;
+}
+
+/* ################ CARDS ############## */
+
+.cards{
+    display: flex;
+    margin-bottom: 60px;
+}
+.fa-shopping-bag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-plane{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-utensils{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fa-mobile-alt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-1{
+    flex: 1;
+    background-color:white;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.card-1 div{
+    display: flex;
+}
+.card-2{
+    flex: 1;
+    background-color:white;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.card-2 div{
+    display: flex;
+}
+.card-3{
+    flex: 1;
+    background-color:white;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.card-3 div{
+    display: flex;
+}
+.card-4{
+    flex: 1;
+    background-color:white;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.card-4 div{
+    display: flex;
+
+}
+    /* card class  */
+
+.card img{
+    height: 150px;
+}
+.card{
+    box-sizing: border-box;
+   border: none;
+  
+}
+/* ###################### ITEMS ON SALE ############################### */
+
+
+
+/* ###################### FOOTER ############################### */
+
+footer{
+    height: 100vh;
+    width: 100vw;
+}
+
+footer .nav-area{
+    background-color:#191919 ;
+    height: 25vh;
+}
+footer .content-area{
+    background-color: #262626;
+    height: 80vh;
+}
+footer .inner-nav {
+    color: white;
+    display: flex;
+    padding-top: 20px;
+}
+.jumia{
+    flex: 1;
+}
+/* search box */
+.search-box{
+    flex:1;
+}
+.search-box h6{
+    font-size: 13px;
+}
+.search-box p{
+    font-size: 11px;
+}
+.download{
+    flex: 1;
+}
+/* content area  */
+
+.content-area{
+    color: white;
+    display: flex;
+}
+.content-area ul{
+    list-style: none;
+}
+.content-area ul h5{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.content-area ul li{
+    font-size: 11px;
+}
+.help-you{
+    flex: 1;
+}
+.about-jumia{
+    flex: 1;
+}
+.make-money{
+    flex: 1;
+}
+.jumia-inter{
+    flex: 1;
+}
+.res{
+    display:none ;
+}
