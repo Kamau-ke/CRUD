@@ -1,4 +1,5 @@
 <?php 
+// WPUEGDHWJC6B9PPGXZH5E3KM --Recoverly
 $pdo=new PDO('mysql:host=localhost; port=3306; dbname=jumia', 'root','');
 $pdo ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $statement=$pdo ->prepare('SELECT * FROM products ORDER BY create_date DESC');
